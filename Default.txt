@@ -7,17 +7,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <!-- Привязка стилей -->
         <link rel="stylesheet" type="text/css" href="Styles/style.css"> 
-        <title>Document</title>
+        <title>None</title>
     </head>
 
     <body>
-
-        <a href="#" id="firstLink" class="mySecondClass">Link 1</a>
-        <a href="#" class="myAwesomeLink">Link 2</a>
-        <a href="#" class="mySecondClass">Link 3</a>
-
-        <p class="myAwesomeClass">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        
     </body>  
 
 </html>
-

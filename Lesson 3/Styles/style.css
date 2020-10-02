@@ -1,0 +1,23 @@
+a{
+    color: rgb(107, 21, 189);
+}
+p{
+    color: rgb(26, 231, 19);
+    font-style: italic;
+}
+
+.myAwesomeLink{
+    color: rgb(236, 87, 157);
+}
+
+.mySecondClass{
+    font-size: 30px;
+}
+
+#firstLink{
+    font-weight: bold;
+}
+
+p.myAwesomeClass {
+    font-weight: lighter;
+}
