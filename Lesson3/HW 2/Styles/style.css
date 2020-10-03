@@ -1,0 +1,15 @@
+div + span{
+    color: red;
+}
+
+div+div>ul>li+li+li+li>a>span {
+    color: green;
+}
+
+h3+div>ul a{
+    text-decoration: none;
+}
+
+body>h3{
+    background-color: blue;
+}

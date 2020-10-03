@@ -1,0 +1,10 @@
+
+.theHWPart{
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+    margin: 100px;
+    border-left: 1px solid gray;
+    border-bottom: 1px solid gray;
+    width: 735px;
+}
