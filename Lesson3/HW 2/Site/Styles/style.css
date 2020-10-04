@@ -6,9 +6,16 @@
     margin: 100px;
     border-left: 1px solid gray;
     border-bottom: 1px solid gray;
-    width: 735px;
+    width: 800px;
 }
-.pColor{
+
+body{
+    line-height: 23px;
+    font-family: sans-serif;
     color: rgb(117, 117, 117);
+}
+
+h3, h2{
+    color: black;
 }
 
