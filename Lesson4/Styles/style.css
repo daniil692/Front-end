@@ -1,0 +1,33 @@
+/* div{
+    background-color: green;
+    height: 100px;
+    width: 400px;
+    margin: 10px;
+    border: 2px dashed black;
+    display: inline-block;
+}
+
+div:hover {
+    background-color: rebeccapurple;
+    border: 3px solid yellow;
+} */
+
+a:nth-of-type(4) {
+    background-color:red;
+}
+
+a:nth-child(2n+1){
+    background-color: violet;
+}
+span::after{
+    content: 'Джек';
+    color: #f83b57;
+}
+
+div+div+div{
+    padding: 500px;
+    font-size: 120px;
+    text-align: center;
+    width: 70%;
+}
+
