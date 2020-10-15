@@ -1,0 +1,9 @@
+div{
+    /* border: 5px solid black;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    margin: auto; */
+
+    border: 20px solid transparent; border-bottom: 20px solid green;
+}
