@@ -11,20 +11,48 @@
     </head>
 
     <body>
-        <header>
-            <div>
-                <p>Sign Up</p>
-            </div>
-        </header>
-        <article>
-            <div class="label">
-                <p>something</p>
-            </div>
-            <div class="between"></div>
-            <div class="form">
-                <p>something</p>
-            </div>
-        </article>
+        <div class="container">
+            <div class="header"><span>Sign up</span></div>
+            <form action="#" method="POST">
+                <div class="formContent">
+                    <div class="labels">
+                        <label for="firstName">First name</label>
+                        <label for="lastName">Last name</label>
+                        <label for="screenName">Screen name</label>
+                        <label for="dateOfBirth">Date of Birth</label>
+                    </div>
+                    <div class="inputs">
+                        <input type="text" placeholder="Enter your First Name...." id="firstNameID">
+                        <input type="text" placeholder="Enter your Last Name...." id="lastNameID">
+                        <input type="text" placeholder="Enter your Screen Name...." id="screenNameID">
+                        <div class="birthMonth">
+                            <select name="birthMonth" id="bm">
+                                <option value="april">April</option>
+                                <option value="april">May</option>
+                                <option value="april">July</option>
+                            </select>
+                            <select name="birthDay" id="bd">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                            <select name="birthYear" id="by">
+                                <option value="1">2001</option>
+                                <option value="2">2002</option>
+                                <option value="3">2003</option>
+                            </select>
+                        </div>
+                    </div>
+    
+                </div>
+                <div class="formFooter">
+                    <input type="submit" value="Submit">
+    
+                    <input type="reset" value="Cancel">
+                </div>
+            </form>
+    
+        </div>
     </body>  
 
 </html>

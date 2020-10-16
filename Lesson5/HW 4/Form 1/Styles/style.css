@@ -1,45 +1,92 @@
+*{font-family: sans-serif;
+
+}
+.container{
+    width: 500px;
+    margin: auto;
+}
+
 body{
-    font-family: sans-serif;
+    color: yellow;
 }
 
-header{
-    width: 550px;
-    height: 40px;
-    background-color: #de8704;
-    margin: auto;
-    border-radius: 5px 5px 0px 0px;
-    border-bottom: 1px solid white;
-   
-}
-
-div>p{
-    color: #ffef5e;
-    font-size: 17px;
+.header{
+    background-color: orange;
+    padding: 5px;
     padding-left: 15px;
-    padding-top: 10px;
-    
+    border-radius: 5px 5px 0 0;
 }
-
-article{
-    width: 550px;
-    height: 550px;
-    background-color: #222536;
-    margin: auto;
-    display: flex;
+.labels, .inputs{
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 20px;
 }
+.formContent{
+    background-color: rgb(12, 10, 85);
+    line-height: 40px;
+}
+.labels{
+    width: 30%;
+    text-align: right;
+    padding-right: 0;
 
-.label{
-    width: 180px;
+}
+.inputs{
+    width: 69%;
+}
+.formFooter{
+    padding: 10px;
+    background-color: orange;
+    border-radius: 0 0 5px 5px;
     text-align: right;
 }
+[type="submit"]{
+    width: 50px;
+    background-color: green;
+    border: 0;
+    border-radius: 3px;
+    padding: 5px;
+    color: white;
+}
+[type= "reset"]{
+    width: 50px;
+    background-color: red;
+    border: 0;
+    border-radius: 3px;
+    padding: 5px;
+    color: white;
+}
+input{
+    width: 100%;
+    padding: 5px;
+    padding-left: 8px;
+    box-sizing: border-box;
+    border-radius: 5px;
 
-.between{
-    width: 10px;
+}
+label{
+    display: inline-block;
+    width: 100%;
 }
 
-.form{
-    width: 360px;
-    text-align: left;
+select{
+    color: black;
+    border-radius: 5px;
 }
 
+option{
+    border-radius: 5px;
+}
 
+#bm{
+    width: 100px;
+}
+
+#bd{
+    width: 50px;
+    margin: 0 23px;
+}
+
+#by{
+    width: 100px;
+}
