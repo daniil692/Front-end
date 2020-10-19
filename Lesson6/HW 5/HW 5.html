@@ -11,40 +11,43 @@
     </head>
 
     <body>
-        <div class="edging">
-            <h1>Форма голосования</h1>
-            <div class="underline"></div>
-            <div class="withForm">
-                <form action="#" method="POST">
-                    <p>Какой социальной сетью вы пользуетесь чаще всего:</p>
-                    <input type="radio" name="RB" id="Fb">
-                    <label for="Fb">Facebook</label><br>
-
-                    <input type="radio" name="RB" id="Vk">
-                    <label for="Vk">ВКонтакте</label><br>
-
-                    <input type="radio" name="RB" id="Ok">
-                    <label for="Ok">Одноклассники</label><br>
-
-                    <input type="radio" name="RB" id="G+">
-                    <label for="G+">Google+</label><br>
-
-                    <input type="radio" name="RB" id="Tw">
-                    <label for="Tw">Twitter</label><br>
-
-                    <input type="radio" name="RB" id="OA">
-                    <label for="OA">Свой вариант:</label>
-                    <input class="textArea" type="text"><br>
-
-                    <div class="buttonDiv">
-                        <button class="submit" type="submit">Отправить</button>
-                    </div>
-                    
-                </form>
+        <div class="shadow">
+            <div class="edging">
+                <h1>Форма голосования</h1>
+                <div class="underline"></div>
+                <div class="withForm">
+                    <form action="#" method="POST" aria-required="false">
+                        <label class="label">Какой социальной сетью вы пользуетесь чаще всего:</label><br> 
+                        <input type="radio" name="RB" id="Fb" checked>
+                        <label for="Fb">Facebook</label><br>
+    
+                        <input type="radio" name="RB" id="Vk">
+                        <label for="Vk">ВКонтакте</label><br>
+    
+                        <input type="radio" name="RB" id="Ok">
+                        <label for="Ok">Одноклассники</label><br>
+    
+                        <input type="radio" name="RB" id="G+">
+                        <label for="G+">Google+</label><br>
+    
+                        <input type="radio" name="RB" id="Tw">
+                        <label for="Tw">Twitter</label><br>
+    
+                        <input type="radio" name="RB" id="OA">
+                        <label for="OA">Свой вариант:</label>
+                        <input type="text" maxlength="14"><br>
+    
+                        <div class="buttonDiv">
+                            <button class="submit" type="submit">Отправить</button>
+                        </div>
+                        
+                    </form>
+                </div>
+              
+               
             </div>
-          
-           
         </div>
+        
     </body>  
 
 </html>
