@@ -33,6 +33,8 @@ body{
 }
 .inputs{
     width: 69%;
+    position: relative;
+    top: 13px;  
 }
 .formFooter{
     padding: 10px;
