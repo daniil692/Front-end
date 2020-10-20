@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <!-- Привязка стилей -->
         <link rel="stylesheet" type="text/css" href="Styles/style.css"> 
-        <title>None</title>
+        <title>Document</title>
     </head>
 
     <body>

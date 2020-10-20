@@ -1,0 +1,88 @@
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    width: 700px;
+    margin: auto;
+
+}
+
+.article{
+    border: 1px solid rgba(128, 128, 128, 0.089);
+}
+
+.header, .footer{
+    background-color: #444444;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 2px;
+}
+
+p{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.labels{
+    box-sizing: border-box;
+    padding: 20px;
+    padding-bottom: 0px;
+    padding-left: 22px;
+}
+
+label::after{
+    color: red;
+    content: " * ";
+}
+
+label{
+    width: 60%;
+    padding: 5px;
+    color: #333333;
+}
+
+input, select{
+    width: 60%;
+    padding: 5px;
+    padding-left: 8px;
+    box-sizing: border-box;
+    border: 1px solid rgba(128, 128, 128, 0.452);
+    height: 40px;
+    box-shadow: inset -1px 106px 78px -142px rgba(0,0,0,0.27);
+    margin: 5px;
+    margin-bottom: 10px;
+    color: #666666;
+}
+
+[for="phone"]::after{
+    color: white;
+    content: "  ";
+}
+
+.footer{
+    text-align: left;
+    padding: 10px;
+    padding-top: 15px;
+    padding-left: 25px;
+    
+}
+
+[type="submit"], [type="reset"]{
+    background-color: #e3e3e3;
+    display: inline-block;
+    color: #333333;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+    padding-left: 2px;
+}
+
+#date{
+    margin-bottom: 20px;
+}
+
+
+

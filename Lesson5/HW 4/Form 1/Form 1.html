@@ -21,12 +21,17 @@
                         <label for="screenName">Screen name</label>
                         <label for="dateOfBirth">Date of Birth</label>
                         <label for="gender">Gender</label>
+                        <label for="country">Country</label>
+                        <label for="email">E-mail</label>
+                        <label for="phone">Phone</label>
+                        <label for="pwd">Password</label>
+                        <label for="pwd1">Confirm Password</label>
                     </div>
                     <div class="inputs">
-                        <input type="text" placeholder="Enter your First Name...." id="firstNameID">
-                        <input type="text" placeholder="Enter your Last Name...." id="lastNameID">
-                        <input type="text" placeholder="Enter your Screen Name...." id="screenNameID">
-                        <div class="birthDayDate">
+                        <input type="text" placeholder="Enter your First Name...." id="firstNameID" required>
+                        <input type="text" placeholder="Enter your Last Name...." id="lastNameID" required>
+                        <input type="text" placeholder="Enter your Screen Name...." id="screenNameID" required>
+                        <div class="dateOfBirth">
                             <select name="birthMonth" id="bm">
                                 <option value="May">May</option>
                                 <option value="June">June</option>
@@ -94,13 +99,32 @@
                             </select>
                         </div>
                             <div class="gender" id="gender">
-                                <input type="radio" id="male">
-                                <label for="male">Male</label>
-                                <input type="radio" id="female">
-                                <label for="female">Female</label>
+                                <input type="radio" name="gender" id="aInput">
+                                <label for="aInput">Male</label>
+                                <input type="radio" name="gender" id="dInput">
+                                <label for="dInput">Female</label>
                             </div>
+                        <div>
+                            <select name="country" id="cy">
+                                <option value="USA">USA</option>
+                                <option value="Ukraine">Ukraine</option>
+                                <option value="Germany">Germany</option>
+                                <option value="Spain">Spain</option>
+                                <option value="Italy">Italy</option>
+                                <option value="Pland">Poland</option>
+                            </select>
+                        </div>
+                        <input type="email" placeholder="Enter E-mail...." id="email" required>
+                        <input type="tel" placeholder="Enter Phone...." id="phone">    
+                        <input type="password" id="pwd" required>   
+                        <input type="password" id="pwd1" required>
+                                           
+                    </div>    
+                    <div class="terms">
+                        <input type="checkbox" id="terms" required>
+                        <label for="terms">I agree to the Terms of Use</label>
                     </div>
-    
+                        
                 </div>
                 <div class="formFooter">
                     <input type="submit" value="Submit">

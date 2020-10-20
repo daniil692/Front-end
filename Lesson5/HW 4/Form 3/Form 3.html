@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang ="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <!-- Привязка стилей -->
+        <link rel="stylesheet" type="text/css" href="Styles/style.css"> 
+        <title>Form 3</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <form action="#" method="POST">
+                <div class="header">
+                    <span>Форма тестирования</span>
+                    <div class="underline"></div>
+                </div>
+                <div class="article">
+                    <label for="name">Ваше имя</label><br>
+                    <input type="text" id="name" required><br>
+                    <label for="first">Ваш возраст:</label>
+                    <div class="first">
+                        <input type="radio" name="age" id="age20">
+                        <label for="age20">до 20</label><br>
+                        <input type="radio" name="age" id="age30">
+                        <label for="age30">от 20 до 30</label><br>
+                        <input type="radio" name="age" id="age40">
+                        <label for="age40">от 30 до 40</label><br>
+                        <input type="radio" name="age" id="age50">
+                        <label for="age50">от 40 до 50</label><br>
+                        <input type="radio" name="age" id="ageInfinity">
+                        <label for="ageInfinity">более 50</label><br>
+                    </div>
+                    <label for="second">Есть ли у Вас собственный сайт или блог:</label>
+                    <div class="second">
+                        <input type="radio" name="site" id="yes">
+                        <label for="yse">Да, есть</label><br>
+                        <input type="radio" name="site" id="noButIWantTo">
+                        <label for="noButIWantTo">Нет, но я планирую создать</label><br>
+                        <input type="radio" name="site" id="no">
+                        <label for="no">Нет, он мне не нужен</label><br>
+                    </div>
+                    <label for="third">Какой социальной сетью вы пользуетесь чаще всего:</label>
+                    <div class="third">
+                        <input type="checkbox" name="RB" id="Fb" checked>
+                        <label for="Fb">Facebook</label><br>
+    
+                        <input type="checkbox" name="RB" id="Vk">
+                        <label for="Vk">ВКонтакте</label><br>
+    
+                        <input type="checkbox" name="RB" id="Ok">
+                        <label for="Ok">Одноклассники</label><br>
+    
+                        <input type="checkbox" name="RB" id="G+">
+                        <label for="G+">Google+</label><br>
+    
+                        <input type="checkbox" name="RB" id="Tw">
+                        <label for="Tw">Twitter</label><br>
+    
+                        <input type="checkbox" name="RB" id="OA">
+                        <label for="OA">Свой вариант:</label>
+                        <input type="text" maxlength="14"><br>
+    
+                        <div class="buttonDiv">
+                            <button class="submit" type="submit">Отправить</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>  
+
+</html>
