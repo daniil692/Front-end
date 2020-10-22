@@ -16,12 +16,12 @@
             <form action="#" method="POST">
                 <div class="formContent">
                     <div class="labels">
-                        <label for="firstName">First name</label>
-                        <label for="lastName">Last name</label>
-                        <label for="screenName">Screen name</label>
-                        <label for="dateOfBirth">Date of Birth</label>
-                        <label for="gender">Gender</label>
-                        <label for="country">Country</label>
+                        <label for="firstNameID">First name</label>
+                        <label for="lastNameID">Last name</label>
+                        <label for="screenNameID">Screen name</label>
+                        <label for="bm">Date of Birth</label>
+                        <label for="aInput">Gender</label>
+                        <label for="cy">Country</label>
                         <label for="email">E-mail</label>
                         <label for="phone">Phone</label>
                         <label for="pwd">Password</label>
@@ -31,7 +31,7 @@
                         <input type="text" placeholder="Enter your First Name...." id="firstNameID" required>
                         <input type="text" placeholder="Enter your Last Name...." id="lastNameID" required>
                         <input type="text" placeholder="Enter your Screen Name...." id="screenNameID" required>
-                        <div class="dateOfBirth">
+                        <div class="dateOfBirth" id="dateOfBirth">
                             <select name="birthMonth" id="bm">
                                 <option value="May">May</option>
                                 <option value="June">June</option>
@@ -98,7 +98,7 @@
                                 <option value="16">2005</option>
                             </select>
                         </div>
-                            <div class="gender" id="gender">
+                            <div class="gender">
                                 <input type="radio" name="gender" id="aInput">
                                 <label for="aInput">Male</label>
                                 <input type="radio" name="gender" id="dInput">

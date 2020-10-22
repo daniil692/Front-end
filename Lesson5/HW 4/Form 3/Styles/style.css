@@ -33,7 +33,7 @@ span{
     margin-left: 30px;
 }
 
-[for="name"]::after, [for="first"]::after, [for="second"]::after, [for="third"]::after{
+[for="name"]::after, .star::after{
     color: red;
     content: " * ";
 }
@@ -53,12 +53,12 @@ input, .third>[type="text"]{
 }
 
 .first>input, .second>input, .third>input{
-    width: 5px;
-    height: 5px;
+    width: 15px;
+    height: 15px;
 }
 
 .first>label, .second>label, .third>label{
-    font-size: small;
+    font-size: medium;
 }
 
 button.submit {
@@ -73,6 +73,4 @@ button.submit {
     font-weight: 800;
     margin-bottom: 10px;
 }
-
-
 
