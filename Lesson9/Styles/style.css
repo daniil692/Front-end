@@ -1,0 +1,38 @@
+/* .triangle{
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid red;
+} */
+
+/* input{
+    visibility: hidden;
+}
+
+input:checked+label{
+    background-color: red;
+}
+
+input+label>.radio::before{
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    content: '';
+    display: inline-block;
+}
+
+input:checked+label>.radio::after{
+    width: 6px;
+    height: 6px;
+    background-color: green;
+    border: 1px solid black;
+    border-radius: 50%;
+    content: '  ';
+    display: inline-block;
+    position: relative;
+    right: 10px;
+    bottom: 2px;
+} */
+
