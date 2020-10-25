@@ -1,0 +1,142 @@
+body{
+    font-family: sans-serif;
+    background-color: #666666;
+}
+
+.container{
+    margin: auto;
+    width: 1300px;
+    height: auto;
+    box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.5);
+}
+
+header{
+    width: 1260px;
+    height: 150px;
+    background-color: #a43232;
+    background-image: repeating-linear-gradient(-40deg, transparent, transparent 20px, #9e2a2b 10px, #9e2a2b 40px);
+    color: white;
+    padding: 40px;
+    padding-top: 15px;
+    padding-right: 0px;
+
+}
+
+.foregroundGradient{
+    width: 1300px;
+    height: 205px;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.185) 0%, rgba(255, 255, 255, 0.068) 100%);
+    position: relative;
+    bottom: 155px;
+    right: 40px;
+}
+
+h1{
+    font-size: 50px;
+    margin-bottom: 0px;
+    font-weight: normal;
+}
+
+h2{
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+nav{
+    font-size: 23px;
+    width: 1260px;
+    height: 40px;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    background-color: #0f0f0f;
+    background-image: repeating-linear-gradient(-40deg, transparent, transparent 20px, black 10px, black 40px);
+}
+
+a{
+    margin: 10px;
+    text-decoration: none;
+    color: grey;
+}
+
+main{
+    background-color: #bbbbbb;
+    color: grey;
+    height: 750px;
+}
+
+.license, .categories{
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+}
+
+img{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    width: 680px;
+    height: 205px;
+}
+
+.license{
+    width: 950px;
+    padding: 10px;
+    height: 630px;
+    font-size: 20px;
+    text-align: justify;
+    position: relative;
+    right: 1px;
+}
+
+.nearImg{
+    padding-top: 20px;
+}
+
+.license>h2{
+    font-size: 20px;
+    color: rgb(56, 56, 56);
+    font-size: 25px;
+}
+
+p{
+    margin-bottom: 25px;
+}
+
+.categories{
+    float: right;
+    width: 275px;
+    height: 520px;
+    position: relative;
+    bottom: 683px;
+    font-size: 17px;
+    margin-left: 10px;
+    position: relative;
+    left: 1px;
+}
+
+.categories a{
+    margin: 0px;
+}
+
+h3{
+    margin-left: 35px;
+    color: black;
+}
+
+ul{
+    margin-left: 20px;
+    color: black;
+}
+strong{
+    color: rgb(65, 65, 65);
+}
+
+h5{
+    text-align: center;
+    margin-left: 800px;
+    margin-top: 10px;
+    color: rgb(43, 43, 43);
+}

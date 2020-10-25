@@ -90,7 +90,7 @@ div{
 } */
 
 
-/* .box{
+.box{
     background-color: yellow;
     width: 300px;
     height: 300px;
@@ -101,10 +101,10 @@ div{
 
 .clearfix{
     clear: both;
-} */
+}
 
 
-.header{
+/* .header{
     width: 100%;
     height: 50px;
     background-color: blue;
@@ -144,4 +144,4 @@ div{
 
 .aside2{
     float: right;
-}
+} */
