@@ -1,0 +1,49 @@
+/* .box{
+    width: 350px;
+    height: 300px;
+    background-color: orange;
+    transform: translate(100px, 150px);
+    transform: rotate(45deg);
+    transform: skew(45deg);
+    transition: all 1s;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    padding-top: 100px;
+}
+
+.box:hover{
+    background-color: white;
+    color: white;
+} */
+
+
+
+
+
+.box{
+    width: 2000px;
+    height: 2000px;
+    background-color: orange;
+    animation: myAnimation 0.1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-direction: reverse;
+}
+
+img{
+    width: 2000px;
+    height: 2000px;
+    opacity: 0.5;
+}
+
+@keyframes myAnimation{
+    0%{
+        background-color: blue;
+    }
+
+    100%{
+        background-color: red;
+    }
+}
