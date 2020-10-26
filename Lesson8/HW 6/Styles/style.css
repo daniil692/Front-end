@@ -59,6 +59,12 @@ a{
     color: grey;
 }
 
+a:hover{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
+
 main{
     background-color: #bbbbbb;
     color: grey;
@@ -87,8 +93,7 @@ img{
     height: 630px;
     font-size: 20px;
     text-align: justify;
-    position: relative;
-    right: 1px;
+    float: left;
 }
 
 .nearImg{
@@ -109,16 +114,22 @@ p{
     float: right;
     width: 275px;
     height: 520px;
-    position: relative;
-    bottom: 683px;
+    float: top;
     font-size: 17px;
     margin-left: 10px;
-    position: relative;
-    left: 1px;
+}
+
+.clearfix{
+    clear: both;
 }
 
 .categories a{
     margin: 0px;
+}
+
+.categories a:hover{
+    margin: 0px;
+    color: black;
 }
 
 h3{
@@ -129,14 +140,16 @@ h3{
 ul{
     margin-left: 20px;
     color: black;
+    list-style-type: square;
 }
 strong{
     color: rgb(65, 65, 65);
 }
 
-h5{
+.h5{
+    margin: auto;
     text-align: center;
-    margin-left: 800px;
-    margin-top: 10px;
-    color: rgb(43, 43, 43);
+    height: 10px;
+    width: 500px;
+    color: rgb(39, 39, 39);
 }
