@@ -1,0 +1,42 @@
+img{
+    position: relative;
+    top: 500px;
+}
+
+.bullet{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: linear-gradient(72deg, rgba(154,154,154,1) 0%, rgba(74,74,74,1) 100%);
+    animation: cannonShot linear infinite;
+    animation-duration: 2s;
+    animation-direction: inherit;
+    position: relative;
+    top: 260px;
+    left: 290px;
+}
+
+@keyframes cannonShot{
+    0%{
+        transform: scale(1.5);
+        background: linear-gradient(180deg, rgba(154,154,154,1) 0%, rgba(74,74,74,1) 100%);
+    }
+
+    10%{
+        transform: translateX(250px) scale(4);
+        background: linear-gradient(225deg, rgba(154,154,154,1) 0%, rgba(74,74,74,1) 100%);
+    }
+
+    50%{
+        transform: translateX(1000px) scale(3);
+        background: linear-gradient(275deg, rgba(154,154,154,1) 0%, rgba(74,74,74,1) 100%);
+    }
+
+    80%{
+        transform: translateY(200px) scaleX(2);
+        background: linear-gradient(0deg, rgba(154,154,154,1) 0%, rgba(74,74,74,1) 100%);
+    }
+
+    100%{
+    }
+}
