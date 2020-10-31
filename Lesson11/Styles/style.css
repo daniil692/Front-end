@@ -1,0 +1,39 @@
+/* .triangle{
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid green;
+} */
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: grey;
+    font-size: 90px;
+}
+
+p{
+    font-size: 30px;
+    padding: 10px;
+}
+
+input~div{
+    width: 300px;
+    height: 500px;
+    background-color: orange;
+    visibility: hidden;
+    position: relative;
+    bottom: 32px;
+}
+
+input{
+    visibility: hidden;
+}
+
+input:checked~div{
+    visibility: visible;
+}
+
+
+  
