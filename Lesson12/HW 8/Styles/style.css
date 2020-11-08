@@ -23,23 +23,29 @@ h1{
         width: 50%;
         float: left;
     }
+    
 
     #third, #second{
         width: 40%;
         margin: 15px;
-        height: 400px;
         float: left;
     }
+    
 }
 
+
+
 @media screen and (min-width: 769px){
+    .clearfix{
+        clear: both;
+    }
+
     .desktop{
         font-size: 50px;
     }
 
     #first, #second, #third{
         width: 28%;
-        float: left;
         margin-right: 15px;
         font-size: 30px;
         box-sizing: border-box;
