@@ -24,16 +24,12 @@ h1{
         float: left;
     }
     
-
     #third, #second{
         width: 40%;
         margin: 15px;
         float: left;
     }
-    
 }
-
-
 
 @media screen and (min-width: 769px){
     .clearfix{
@@ -50,6 +46,7 @@ h1{
         font-size: 30px;
         box-sizing: border-box;
         height: auto;
+        display: inline-block;
     }
 
     #first{
