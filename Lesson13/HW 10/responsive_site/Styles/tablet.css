@@ -1,0 +1,76 @@
+@media screen and (min-width: 426px){
+   
+    .menue{
+        color: palevioletred;
+        background-color: white;
+        padding-top: 20px;
+        transform: scale(1.5);
+        position: relative;
+        right: 50px;
+    }
+
+    header, main, footer{
+        margin-left: 40px;
+    }
+
+    main{
+        height: 750px;
+    }
+
+    .socialMedia{
+        position: relative;
+        top: 60px;
+    }
+
+    header>img{
+        width: 300px;
+        height: 500px;
+        object-fit: cover;
+        float: right;
+    }
+
+    .hi{
+        float: left;
+        width: 40%;
+    }
+
+    .hi>h1{
+        width: 80%;
+        font-size: 50px;
+    }
+
+    .clearfix{
+        clear: both;
+    }
+
+    main>h2, footer>h2{
+        width: 22%;
+    }
+    main>p, main>h3{
+        float: right;
+        width: 70%;
+        position: relative;
+        bottom: 160px;
+    }
+
+    .dd{
+        margin-top: 55px;
+    }
+
+    .ai, .ro, .gr{
+        margin-top: 40px;
+    }
+
+    .first{
+        float: left;
+        width: 47%;
+        padding-right: 10px;
+        border-right: 1px solid rgb(196, 196, 196);
+    }
+
+    .second{
+        padding-left: 10px;
+        float: right;
+        width: 47%;
+    }
+}

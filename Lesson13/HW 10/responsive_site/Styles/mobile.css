@@ -1,15 +1,32 @@
-    .sprite{
-        background-image: url("../responsive_site/social-media-icons-css-sprite.png");
+    .menue{
         width: 60px;
-        height: 60px;
+        height: 25px;
+        padding-top: 10px;
+        float: left;
+        background-color: rgb(224, 224, 224);
+        border-radius: 5px;
+        position: relative;
+        right: 10px;
     }
-    
-    header>.allSprites{
-        display: flex;
-        justify-content: flex-start;
-        transform: scale(0.4);
+
+    .menue>i{
+        padding-left: 23px;
+        transform: scale(1.1);
+        position: relative;
+        bottom: 2px;
     }
-    
+
+    .socialMedia{
+        float: right;
+        padding-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .socialMedia>i{
+        margin-right: 5px;
+        transform: scale(0.9);
+    }
+
     header, main, footer{
         margin-left: 15px;
         color: rgb(94, 94, 94);
@@ -110,8 +127,8 @@
         transition: 1s;
         transform: 1s;
         font-family: serif;
-        min-width: 30%;
-        max-width: 30%;
+        min-width: 100px;
+        max-width: 90px;
         height: 30px;
         background-color: rgb(252, 78, 78);
         border: 2px solid white;
@@ -125,8 +142,8 @@
     [type="button"]{
         transition: 1s;
         font-family: serif;
-        min-width: 30%;
-        max-width: 30%;
+        min-width: 100px;
+        max-width: 90px;
         height: 30px;
         background-color: white;
         border: 2px solid rgb(252, 78, 78);
