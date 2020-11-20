@@ -1,0 +1,48 @@
+@media screen and (min-width: 769px){
+    .menue{
+        position: relative;
+        right: 55px;
+    }
+
+    header>div>img{
+        width: 100%;
+        position: relative;
+        bottom: 40px;   
+    }
+
+    .pic10{
+        height: 370px;
+        float: right;
+        position: relative;
+        top: 20px;
+    }
+
+    .hi{
+        width: 40%;
+        font-size: 15px;
+    }
+
+    .hi>h1{
+        width: 90%;
+        font-size: 40px;
+    }
+
+    .last{
+        height: 435px;
+    }
+
+    .first{
+        padding-right: 43px;
+        position: relative;
+        left: 3px;
+    }
+
+    .second{
+        padding-left: 45px;
+    }
+
+    main>h2, footer>h2{
+        width: 16%;
+    }
+
+}

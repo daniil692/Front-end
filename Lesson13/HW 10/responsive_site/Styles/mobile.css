@@ -1,3 +1,7 @@
+    body{
+        width: 90%;
+    }
+    
     .menue{
         width: 60px;
         height: 25px;
@@ -10,10 +14,16 @@
     }
 
     .menue>i{
+        transition: 1s;
         padding-left: 23px;
         transform: scale(1.1);
         position: relative;
         bottom: 2px;
+    }
+
+    .menue>i:hover{
+        transition: 1s;
+        color: red;
     }
 
     .socialMedia{
@@ -22,17 +32,27 @@
         margin-bottom: 30px;
     }
 
-    .socialMedia>i{
-        margin-right: 5px;
+    .socialMedia>a>i{
+        transition: 1s;
         transform: scale(0.9);
+        color: gray;
+    }
+
+    .socialMedia>a>i:hover{
+        transition: 1s;
+        color: red;
     }
 
     header, main, footer{
         margin-left: 15px;
         color: rgb(94, 94, 94);
         padding-bottom: 20px;
-        border-bottom: 2px solid rgb(196, 196, 196);
-        width: 90%;
+        border-bottom: 2px solid rgb(230, 230, 230);
+        width: 95%;
+    }
+
+    footer{
+        border-bottom: rgb(255, 255, 255);
     }
     
     .tw{
@@ -192,10 +212,14 @@
     footer>div{
         padding-top: 20px;
         padding-bottom: 20px;
-        border-bottom: 1px solid rgb(196, 196, 196);
+        border-bottom: 1px solid rgb(230, 230, 230);
     }
     
-    .last{
+    .clearfix{
         border-bottom: none;
     }
 
+    .last{
+        border-bottom: white;
+        padding-bottom: 0px
+    }
