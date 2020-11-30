@@ -14,7 +14,7 @@ function isValidNumber(value){
     else if ('' === value) {
         return false;
     }
-    else if (balue === null){
+    else if (value === null){
         return false;
     }
     else{
