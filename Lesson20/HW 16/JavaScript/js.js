@@ -1,18 +1,7 @@
+
 let a = prompt('Enter your first number');
 let b = prompt('Enter your second number');
 let calc = prompt('Что вы хотите сделать с этими числами?: Сложить (+), Вычесть (-), Умножить (*), Разделить(/)')
-
-function valid(calc) 
-{
-    if (calc === "+" || calc === "-" || calc === "*" || calc === "/") 
-    {
-        return true;
-    } 
-    else 
-    {
-        return false;
-    }
-}
 
 function calcAddition (a, b){
     if(calc === "+"){
@@ -42,22 +31,35 @@ function calcDegree (a, b){
     }
 }
 
-if(valid === true && calc === "+"){
-    return Math.calcAddition();
+function valid(calc) 
+{
+    if (calc === "+" || calc === "-" || calc === "*" || calc === "/") 
+    {
+        return true;
+    } 
+    else 
+    {
+        return false;
+    }
 }
 
-else if(valid === true && calc === "-") {
-    return calcSubtraction();
+function calculator(method) {
+    switch (method) {
+        case "+":
+            return window.calcAddition();
+        case "-":
+            return window.calcSubtraction();
+        case "*":
+            return window.calcMultiplication();
+        case "/":
+            return window.calcDegree();
+        break;
+    } 
 }
 
-else if(valid === true && calc === "*") {
-    return calcMultiplication();
+if(window.valid === true){
+    return window.calculator();
 }
-
-else if(valid === true && calc === "/") {
-    return calcDegree();
-}
-
 else{
-    return alert('Not valid number')
+    return alert("Вы ввели не верный знак")
 }
